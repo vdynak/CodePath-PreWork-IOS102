@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var DarkModeSwitch: UISwitch!
     @IBOutlet weak var MorePetsSwitch: UISwitch!
     @IBOutlet weak var NOMStepper: UIStepper!
     @IBOutlet weak var NOMLabel: UILabel!
@@ -19,7 +20,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
     @IBAction func NOMStepperAction(_ sender: UIStepper) {
@@ -27,6 +27,14 @@ class ViewController: UIViewController {
               NOMLabel.text = "\(Int(sender.value))"
           }
     
+    @IBAction func DarkModeSwitchAction(_ sender: UISwitch) {
+        if DarkModeSwitch.isOn{
+            view.backgroundColor = .darkGray
+        }
+        else{
+            view.backgroundColor = .white
+        }
+    }
     @IBAction func IntroductionButton(_ sender: UIButton) {
                 
                 // Let's us chose the title we have selected from the segmented control
