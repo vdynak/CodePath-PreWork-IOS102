@@ -7,7 +7,10 @@ The Introduction App is designed to display custom user input that teaches other
 App Walk-Through:
 https://github.com/vdynak/CodePath-PreWork/blob/main/Prework.gif
 
+
+
 Required Features:
+
 [x]1. App displays an image of a school's logo
 
 [x]2. App has three textfields for first, last, and school names
@@ -22,6 +25,7 @@ Required Features:
 
 
 Optional Features
+
 [x]1. User can tap a button to change the color of the background view[ ]
 
 [ ]3. User can select on additional buttons that provide more info about the user. Example: more textfields, a different alert box, etc.
