@@ -5,7 +5,7 @@ App Description:
 The Introduction App is designed to display custom user input that teaches others some basic information about the user. For instance, the app prompts the user for their first name, last name, the school they attend as well as the year they are in, followed by the number of pets they have and if they want more.
 
 App Walk-Through:
-https://github.com/vdynak/CodePath-PreWork/blob/main/Pre-Work.gif
+![Pre-Work](https://github.com/vdynak/CodePath-PreWork/assets/116195324/b8057a2f-3acd-49d0-ba14-aedefde42a15)
 
 
 Required Features:
